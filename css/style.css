@@ -164,9 +164,9 @@ main {
 }
 .header__bottom__title {
   color: #fff;
-width: 600px;
-  font-family: Livvic;
-  font-size: 60px;
+  width: 600px;
+  
+  font-size: 100px;
   font-style: normal;
   font-weight: 700;
   line-height: 100px;
