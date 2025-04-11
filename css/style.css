@@ -68,6 +68,7 @@ body {
   font-weight: 600;
   line-height: 25px;
   color: #fff;
+  background-color: #014E56;
 }
 
 main {
@@ -84,6 +85,13 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+.divider {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+}
+
 
 .btn {
   border: 2px solid transparent;
@@ -124,12 +132,19 @@ main {
   padding-top: 73px;
   padding-bottom: 73px;
   background-color: #014e56;
+  ;
+  background-position: left center ;
+  background-repeat: no-repeat;
 }
 
 .header__container {
   display: flex;
   align-items: center;
+ 
+  
 }
+
+
 
 .site-logo {
   margin-right: 80px;
@@ -158,44 +173,9 @@ main {
   }
 }
 
-.header__bottom {
-  display: flex;
-  align-items: center;
-}
-.header__bottom__title {
-  color: #fff;
-  width: 600px;
-  
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 100px;
-}
-.title-span {
-  
-  color: #f67e7e;
-  color: #f67e7e;
-  font-family: Livvic;
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 100px;
-}
 
-.header__bottom__dis {
-  color: #fff;
 
-  font-family: Livvic;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 28px;
-  width: 445px;
-}
-.btn {
-}
-.primary-btn {
-}
+
 
 .footer__cta {
   background-color: #f67e7e;

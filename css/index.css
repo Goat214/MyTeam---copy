@@ -1,2 +1,166 @@
 @import "./normalize.css";
-@import "./style.css"
+@import "./style.css";
+
+.main {
+}
+.hero {
+  padding-top: 56px;
+  padding-bottom: 250px;
+  background-image: url(../images/bg-pattern-home-1.svg),
+    url(../images/bg-pattern-home-2.svg);
+  background-repeat: no-repeat;
+  background-position: left -100px top 70px, bottom right 165px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+}
+.header__bottom__title {
+  font-size: 100px;
+  line-height: 100px;
+}
+.title-span {
+  color: #f67e7e;
+}
+.header__bottom__dis {
+  width: 455px;
+}
+
+.hero-divider {
+  margin-bottom: 79px;
+  background-color: #79c8c7;
+}
+.hero__description__text {
+}
+
+.features {
+  background-color: #012f34;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  .container {
+    display: flex;
+  }
+  background-image: url(../images/bg-pattern-home-3.svg);
+  background-position: bottom right -100px;
+  background-repeat: no-repeat;
+}
+.features__title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  width: 445px;
+  margin-right: 125px;
+}
+
+.orange-divider {
+  margin-bottom: 54px;
+  background-color: #f67e7e;
+}
+
+.features__right {
+  display: flex;
+  margin-top: 62px;
+}
+.features__right__icon {
+  margin-right: 23px;
+}
+.features__right__info {
+}
+.features__right__list {
+}
+.features__right__item {
+  display: flex;
+}
+.features__right__item__img {
+}
+.features__right__list__title {
+  color: #f67e7e;
+
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.features__right__item__dis {
+  color: #fff;
+  margin-bottom: 32px;
+  opacity: 0.6;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.testemonalis {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-image: url(../images/bg-pattern-home-4-about-3.svg), url(../images/bg-pattern-home-5.svg);
+  background-position: top left, right bottom;
+  background-repeat: no-repeat;
+}
+
+.testemonalis__title {
+  width: 932px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 92px;
+}
+.blue-text {
+  color: #79c8c7;
+}
+.testemonalis__list {
+  display: flex;
+}
+.testemonalis__item {
+  background-image: url(../images/icon-quotes.svg);
+  background-repeat: no-repeat;
+  background-position: center top ;
+  padding-top: 36px;
+  text-align: center;
+  margin-right: 30px;
+}
+.testemonalis__list__des {
+  
+  width: 350px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  margin-bottom: 24px;
+}
+.testemonalis__list__name {
+  color: #79C8C7;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+margin-bottom: 2px;
+}
+.testemonalis__list__info {
+  font-size: 13px;
+  
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.testemonalis__list__img {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: 2px solid #c4fffe;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meeting__item__social__f {
+  color: #79C8C7;
+}
